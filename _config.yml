@@ -1,0 +1,32 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Edward K.
+tagline:          "Edward\'s personal website"
+description:      "Edward\'s personal website"
+url:              http://127.0.0.1:4000/
+baseurl:          /
+
+author:
+  name:           Edward Kuang
+  email:          ekuang2@gmail.com
+
+paginate:         1
+
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/edishuman/edishuman.github.io
+
+# This is the list of pages for header navigation
+pages_list:
+    About: '/about'
+    Archive: '/archive'
